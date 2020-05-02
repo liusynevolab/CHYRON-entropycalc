@@ -17,4 +17,5 @@ first column and a count of the number of times that sequence was present in the
 
 For each unique sequence, divide the count by the sum of all counts to give p.
 
-Then calculate p*LOG(p,2) for each sequence. The sum of this value for all sequences is the Shannon entropy.
+Then calculate p*LOG(p,2) for each sequence. The sum of this value for all sequences, multiplied by -1, is the Shannon
+entropy.
