@@ -34,8 +34,6 @@ with open(sys.argv[1]) as samples:
 				if insertion == 'ROOT':
 					print"found one"
 					continue
-				if insPerc < 0.000139:
-					continue
 				if insertion not in insDict: ## have we seen this insertion?
 					insDict[insertion] = insCount
 					c += 1
