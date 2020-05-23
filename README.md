@@ -19,8 +19,3 @@ For each unique sequence, divide the count by the sum of all counts to give p.
 
 Then calculate p*LOG(p,2) for each sequence. The sum of this value for all sequences, multiplied by -1, is the Shannon
 entropy.
-
-To pool txt files of insertions that are the outputs of the NGS data pipeline (as in the CHYRON-lineage repository), run,
-for example
-
-python2.7 pool-lt.py well_data.txt
