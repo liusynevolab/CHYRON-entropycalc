@@ -1,6 +1,6 @@
 # CHYRON-entropycalc
 
-To calculate Shannon entropy from amplicon sequencing of the CHYRON locus:
+To calculate Shannon entropy from amplicon sequencing of the CHYRON locus, as in Figure S4b:
 
 For each sample, download the "aligned" file from the CHYRON-NGS pipeline. You will also need the ref file from 
 that pipeline.
